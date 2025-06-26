@@ -7095,7 +7095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisposeHelper_NotifyDisposedUsed_m7A9C98
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(24, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_1);
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralD81452C86BFC4304CE462191543453B5531C824C, L_2, _stringLiteralDF044C7EBE7E45C9572204BF0DEA5DFD05D06253, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -7582,7 +7582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DefaultDragAndDropClient_GetGe
 		String_t* L_1 = ___0_key;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(14, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(26, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0012;
@@ -7599,7 +7599,7 @@ IL_0012:
 		String_t* L_4 = ___0_key;
 		NullCheck(L_3);
 		RuntimeObject* L_5;
-		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(15, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(28, L_3, L_4);
 		G_B3_0 = L_5;
 	}
 
@@ -7670,7 +7670,7 @@ IL_0021:
 		L_5 = StartDragArgs_get_genericData_m9F34B0D595FC63E28E4D033BCA5767E5ED8185BD_inline((&___0_args), NULL);
 		NullCheck(L_5);
 		RuntimeObject* L_6;
-		L_6 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(17, L_5);
+		L_6 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(30, L_5);
 		V_3 = L_6;
 	}
 	{
@@ -7719,7 +7719,7 @@ IL_003e_1:
 				RuntimeObject* L_14;
 				L_14 = DictionaryEntry_get_Value_m75FD18FE968AE131F28AA2CB0DF4895EBA39075E_inline((&V_4), NULL);
 				NullCheck(L_12);
-				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(16, L_12, ((String_t*)CastclassSealed((RuntimeObject*)L_13, String_t_il2cpp_TypeInfo_var)), L_14);
+				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(29, L_12, ((String_t*)CastclassSealed((RuntimeObject*)L_13, String_t_il2cpp_TypeInfo_var)), L_14);
 			}
 
 IL_006c_1:
@@ -7957,7 +7957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultDragAndDropClient_DragCleanup_mB9
 IL_0014:
 	{
 		NullCheck(G_B2_0);
-		VirtualActionInvoker0::Invoke(11, G_B2_0);
+		VirtualActionInvoker0::Invoke(23, G_B2_0);
 	}
 
 IL_001a:
@@ -9759,7 +9759,7 @@ IL_0017:
 		String_t* L_4 = ___0_key;
 		RuntimeObject* L_5 = ___1_data;
 		NullCheck(L_3);
-		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(16, L_3, L_4, L_5);
+		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(29, L_3, L_4, L_5);
 		return;
 	}
 }
@@ -10988,7 +10988,7 @@ IL_023f:
 		L_71 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(L_70, NULL);
 		NullCheck(L_71);
 		int32_t L_72;
-		L_72 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_71);
+		L_72 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_71);
 		ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086* L_73;
 		L_73 = ListViewDraggerExtension_GetRecycledItemFromIndex_m2DCBCAD63977E19CCB2888783463D3CCB7956F5C(L_69, ((int32_t)il2cpp_codegen_subtract(L_72, 1)), NULL);
 		V_4 = L_73;
@@ -11123,7 +11123,7 @@ IL_003d:
 		L_20 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(L_19, NULL);
 		NullCheck(L_20);
 		int32_t L_21;
-		L_21 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_20);
+		L_21 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_20);
 		L_18->___insertAtIndex = L_21;
 		goto IL_008c;
 	}
@@ -12230,7 +12230,7 @@ IL_0093:
 		L_34 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(L_33, NULL);
 		NullCheck(L_34);
 		int32_t L_35;
-		L_35 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_34);
+		L_35 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_34);
 		V_8 = (bool)((((int32_t)L_32) < ((int32_t)L_35))? 1 : 0);
 		bool L_36 = V_8;
 		if (L_36)
@@ -14014,7 +14014,7 @@ IL_0119_1:
 				L_52 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(L_51, NULL);
 				NullCheck(L_52);
 				int32_t L_53;
-				L_53 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_52);
+				L_53 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_52);
 				G_B15_0 = ((((int32_t)L_50) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_53, 1))))? 1 : 0);
 				goto IL_014b_1;
 			}
@@ -14190,7 +14190,7 @@ IL_024d:
 		L_93 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(L_92, NULL);
 		NullCheck(L_93);
 		int32_t L_94;
-		L_94 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_93);
+		L_94 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_93);
 		__this->___m_CurrentIndex = L_94;
 		ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086* L_95 = __this->___m_OffsetItem;
 		ListViewDraggerAnimated_Animate_m4558585B3789AE7375C10FEAF5E12A9B22B6CCF0(__this, L_95, (0.0f), NULL);

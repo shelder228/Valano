@@ -234,6 +234,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Application
 
+		//System.Boolean UnityEngine.Application::RequestAdvertisingIdentifierAsync(UnityEngine.Application/AdvertisingIdentifierCallback)
+		void Register_UnityEngine_Application_RequestAdvertisingIdentifierAsync();
+		Register_UnityEngine_Application_RequestAdvertisingIdentifierAsync();
+
 		//System.Boolean UnityEngine.Application::get_isBatchMode()
 		void Register_UnityEngine_Application_get_isBatchMode();
 		Register_UnityEngine_Application_get_isBatchMode();
@@ -250,9 +254,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_OpenURL();
 		Register_UnityEngine_Application_OpenURL();
 
+		//UnityEngine.NetworkReachability UnityEngine.Application::get_internetReachability()
+		void Register_UnityEngine_Application_get_internetReachability();
+		Register_UnityEngine_Application_get_internetReachability();
+
 		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 		void Register_UnityEngine_Application_get_platform();
 		Register_UnityEngine_Application_get_platform();
+
+		//UnityEngine.SystemLanguage UnityEngine.Application::get_systemLanguage()
+		void Register_UnityEngine_Application_get_systemLanguage();
+		Register_UnityEngine_Application_get_systemLanguage();
 
 	//End Registrations for type : UnityEngine.Application
 
@@ -2062,6 +2074,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Networking_UnityWebRequest_SetMethod();
 		Register_UnityEngine_Networking_UnityWebRequest_SetMethod();
 
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetTimeoutMsec(System.Int32)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetTimeoutMsec();
+		Register_UnityEngine_Networking_UnityWebRequest_SetTimeoutMsec();
+
 		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetUploadHandler(UnityEngine.Networking.UploadHandler)
 		void Register_UnityEngine_Networking_UnityWebRequest_SetUploadHandler();
 		Register_UnityEngine_Networking_UnityWebRequest_SetUploadHandler();
@@ -2307,6 +2323,30 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_PlayerConnectionInternal_UnregisterInternal();
 
 	//End Registrations for type : UnityEngine.PlayerConnectionInternal
+
+	//Start Registrations for type : UnityEngine.PlayerPrefs
+
+		//System.Boolean UnityEngine.PlayerPrefs::HasKey(System.String)
+		void Register_UnityEngine_PlayerPrefs_HasKey();
+		Register_UnityEngine_PlayerPrefs_HasKey();
+
+		//System.Boolean UnityEngine.PlayerPrefs::TrySetInt(System.String,System.Int32)
+		void Register_UnityEngine_PlayerPrefs_TrySetInt();
+		Register_UnityEngine_PlayerPrefs_TrySetInt();
+
+		//System.Boolean UnityEngine.PlayerPrefs::TrySetSetString(System.String,System.String)
+		void Register_UnityEngine_PlayerPrefs_TrySetSetString();
+		Register_UnityEngine_PlayerPrefs_TrySetSetString();
+
+		//System.Int32 UnityEngine.PlayerPrefs::GetInt(System.String,System.Int32)
+		void Register_UnityEngine_PlayerPrefs_GetInt();
+		Register_UnityEngine_PlayerPrefs_GetInt();
+
+		//System.String UnityEngine.PlayerPrefs::GetString(System.String,System.String)
+		void Register_UnityEngine_PlayerPrefs_GetString();
+		Register_UnityEngine_PlayerPrefs_GetString();
+
+	//End Registrations for type : UnityEngine.PlayerPrefs
 
 	//Start Registrations for type : UnityEngine.Profiling.Profiler
 
@@ -2656,6 +2696,26 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.ResourcesAPIInternal
 
+	//Start Registrations for type : UnityEngine.SceneManagement.SceneManager
+
+		//System.Int32 UnityEngine.SceneManagement.SceneManager::get_sceneCount()
+		void Register_UnityEngine_SceneManagement_SceneManager_get_sceneCount();
+		Register_UnityEngine_SceneManagement_SceneManager_get_sceneCount();
+
+		//System.Void UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected(System.Int32,UnityEngine.SceneManagement.Scene&)
+		void Register_UnityEngine_SceneManagement_SceneManager_GetSceneAt_Injected();
+		Register_UnityEngine_SceneManagement_SceneManager_GetSceneAt_Injected();
+
+	//End Registrations for type : UnityEngine.SceneManagement.SceneManager
+
+	//Start Registrations for type : UnityEngine.SceneManagement.SceneManagerAPIInternal
+
+		//UnityEngine.AsyncOperation UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected(System.String,System.Int32,UnityEngine.SceneManagement.LoadSceneParameters&,System.Boolean)
+		void Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_LoadSceneAsyncNameIndexInternal_Injected();
+		Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_LoadSceneAsyncNameIndexInternal_Injected();
+
+	//End Registrations for type : UnityEngine.SceneManagement.SceneManagerAPIInternal
+
 	//Start Registrations for type : UnityEngine.Screen
 
 		//System.Boolean UnityEngine.Screen::get_fullScreen()
@@ -2673,6 +2733,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Screen::get_dpi()
 		void Register_UnityEngine_Screen_get_dpi();
 		Register_UnityEngine_Screen_get_dpi();
+
+		//System.Void UnityEngine.Screen::RequestOrientation(UnityEngine.ScreenOrientation)
+		void Register_UnityEngine_Screen_RequestOrientation();
+		Register_UnityEngine_Screen_RequestOrientation();
+
+		//System.Void UnityEngine.Screen::get_safeArea_Injected(UnityEngine.Rect&)
+		void Register_UnityEngine_Screen_get_safeArea_Injected();
+		Register_UnityEngine_Screen_get_safeArea_Injected();
 
 		//UnityEngine.ScreenOrientation UnityEngine.Screen::GetScreenOrientation()
 		void Register_UnityEngine_Screen_GetScreenOrientation();

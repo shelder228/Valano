@@ -17469,7 +17469,7 @@ IL_0011:
 		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5, __this);
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_2);
+		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_2);
 		V_0 = L_3;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t5B361942F59C43867F72F5B0D244C2D537EC0694_il2cpp_TypeInfo_var);
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_4;
@@ -17495,7 +17495,7 @@ FINALLY_0149:
 				L_6 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5, __this);
 				NullCheck(L_6);
 				bool L_7;
-				L_7 = InterfaceFuncInvoker0< bool >::Invoke(4, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_6);
+				L_7 = InterfaceFuncInvoker0< bool >::Invoke(6, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_6);
 				V_3 = L_7;
 				bool L_8 = V_3;
 				if (!L_8)
@@ -17551,7 +17551,7 @@ IL_007c_1:
 				Type_t* L_21 = V_6;
 				NullCheck(L_21);
 				TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_22;
-				L_22 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(99, L_21);
+				L_22 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(109, L_21);
 				Func_2_t7AF8146EC94DFCBB0F1B3E70111C1FB21D39F00E* L_23 = (Func_2_t7AF8146EC94DFCBB0F1B3E70111C1FB21D39F00E*)il2cpp_codegen_object_new(Func_2_t7AF8146EC94DFCBB0F1B3E70111C1FB21D39F00E_il2cpp_TypeInfo_var);
 				Func_2__ctor_mAFDFA2B152082BBF5E0626BF143EDACD61DE9D74(L_23, NULL, (intptr_t)((void*)BaseListViewController_U3CAddItemsU3Eg__IsGenericListU7C15_0_mD5A1E07441AC98E686931F347B1FD1860DA32D17_RuntimeMethod_var), NULL);
 				Type_t* L_24;
@@ -17570,7 +17570,7 @@ IL_007c_1:
 				Type_t* L_27 = V_7;
 				NullCheck(L_27);
 				TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_28;
-				L_28 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(48, L_27);
+				L_28 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, L_27);
 				NullCheck(L_28);
 				int32_t L_29 = 0;
 				Type_t* L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
@@ -17599,7 +17599,7 @@ IL_00c0_1:
 				Type_t* L_33 = V_7;
 				NullCheck(L_33);
 				TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_34;
-				L_34 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(48, L_33);
+				L_34 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, L_33);
 				NullCheck(L_34);
 				int32_t L_35 = 0;
 				Type_t* L_36 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
@@ -17776,7 +17776,7 @@ IL_001e:
 		L_13 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5, __this);
 		NullCheck(L_13);
 		int32_t L_14;
-		L_14 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_13);
+		L_14 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_13);
 		G_B7_0 = ((((int32_t)((((int32_t)L_12) < ((int32_t)L_14))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0046;
 	}
@@ -17956,7 +17956,7 @@ IL_0012:
 		L_4 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5, __this);
 		NullCheck(L_4);
 		bool L_5;
-		L_5 = InterfaceFuncInvoker0< bool >::Invoke(4, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_4);
+		L_5 = InterfaceFuncInvoker0< bool >::Invoke(6, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_4);
 		V_1 = L_5;
 		bool L_6 = V_1;
 		if (!L_6)
@@ -17994,7 +17994,7 @@ IL_0058:
 		int32_t L_15;
 		L_15 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_13, L_14, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
 		NullCheck(L_12);
-		InterfaceActionInvoker1< int32_t >::Invoke(5, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_12, L_15);
+		InterfaceActionInvoker1< int32_t >::Invoke(10, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_12, L_15);
 		int32_t L_16 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_16, 1));
 	}
@@ -18155,14 +18155,14 @@ IL_0010:
 		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5, __this);
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_2);
+		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_2);
 		RuntimeObject* L_4;
 		L_4 = Enumerable_Range_m4FB9BBBA09BEF5177C13506DB385CF4467C15FD8(0, ((int32_t)il2cpp_codegen_subtract(L_3, 1)), NULL);
 		V_0 = L_4;
 		RuntimeObject* L_5;
 		L_5 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5, __this);
 		NullCheck(L_5);
-		InterfaceActionInvoker0::Invoke(3, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_5);
+		InterfaceActionInvoker0::Invoke(4, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_5);
 		RuntimeObject* L_6 = V_0;
 		BaseListViewController_RaiseItemsRemoved_m0F19A1E1CD326B51E3322F6D7E144E212B8696CD(__this, L_6, NULL);
 		BaseListViewController_RaiseOnSizeChanged_mCFBD5F3AED31BE1099707E250AED386089B3CB2A(__this, NULL);
@@ -18281,7 +18281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeArray* BaseListViewController_AddToArr
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		NullCheck(L_1);
 		Type_t* L_2;
-		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(44, L_1);
+		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_1);
 		V_0 = L_2;
 		Type_t* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -18385,7 +18385,7 @@ IL_0026:
 		L_9 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_8, NULL);
 		NullCheck(L_9);
 		Type_t* L_10;
-		L_10 = VirtualFuncInvoker0< Type_t* >::Invoke(44, L_9);
+		L_10 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_9);
 		V_2 = L_10;
 		int32_t L_11 = V_1;
 		V_7 = (bool)((((int32_t)L_11) == ((int32_t)0))? 1 : 0);
@@ -18639,7 +18639,7 @@ IL_0020:
 		L_7 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5, __this);
 		NullCheck(L_7);
 		bool L_8;
-		L_8 = InterfaceFuncInvoker0< bool >::Invoke(4, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_7);
+		L_8 = InterfaceFuncInvoker0< bool >::Invoke(6, IList_t1C522956D79B7DC92B5B01053DF1AC058C8B598D_il2cpp_TypeInfo_var, L_7);
 		if (!L_8)
 		{
 			goto IL_003c;
@@ -18708,7 +18708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BaseListViewController_U3CAddItemsU3Eg__
 		Type_t* L_0 = ___0_t;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(38, L_0);
+		L_1 = VirtualFuncInvoker0< bool >::Invoke(40, L_0);
 		if (!L_1)
 		{
 			goto IL_001f;
@@ -18718,7 +18718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BaseListViewController_U3CAddItemsU3Eg__
 		Type_t* L_2 = ___0_t;
 		NullCheck(L_2);
 		Type_t* L_3;
-		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_2);
+		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_2);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (IList_1_t8C7C301DAF6E4E4DFA7504EF93E6E2C93AB33AE7_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_5;
@@ -21968,7 +21968,7 @@ IL_000e:
 	{
 		NullCheck(G_B2_0);
 		int32_t L_2;
-		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, G_B2_0);
+		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, G_B2_0);
 		G_B3_0 = L_2;
 	}
 
@@ -22062,7 +22062,7 @@ IL_0012:
 		RuntimeObject* L_4 = __this->___m_ItemsSource;
 		NullCheck(L_4);
 		int32_t L_5;
-		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_4);
+		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_4);
 		G_B5_0 = ((((int32_t)((((int32_t)L_3) < ((int32_t)L_5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_002a;
 	}
@@ -27936,7 +27936,7 @@ IL_0013:
 		L_2 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(__this, NULL);
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_2);
+		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_2);
 		V_0 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
 		bool L_4 = __this->___m_IsOverMultiEditLimit;
 		V_2 = L_4;
@@ -28131,7 +28131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseListView_OnAddClicked_m6355C1856D901
 		L_2 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(__this, NULL);
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_2);
+		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_2);
 		BaseVerticalCollectionView_SetSelection_mF970F0DAF12C51E9C6B1AC4FD64DB035B3DCA482(__this, ((int32_t)il2cpp_codegen_subtract(L_3, 1)), NULL);
 		BaseVerticalCollectionView_ScrollToItem_mA201CA77442DB59FDBAD1AEE7F61FFFA626A8716(__this, (-1), NULL);
 		goto IL_0058;
@@ -28237,7 +28237,7 @@ IL_0032:
 		L_6 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(__this, NULL);
 		NullCheck(L_6);
 		int32_t L_7;
-		L_7 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_6);
+		L_7 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_6);
 		V_1 = (bool)((((int32_t)L_7) > ((int32_t)0))? 1 : 0);
 		bool L_8 = V_1;
 		if (!L_8)
@@ -28250,7 +28250,7 @@ IL_0032:
 		L_9 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(__this, NULL);
 		NullCheck(L_9);
 		int32_t L_10;
-		L_10 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_9);
+		L_10 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_9);
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
 		BaseListViewController_t379A411BBBFADC12829E43420476B1EA096B092E* L_11;
 		L_11 = BaseListView_get_viewController_mDA6595332933FBA6E0DB7A42BEBCB391F20B46FD(__this, NULL);
@@ -29177,7 +29177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseListView_U3COnAddClickedU3Eb__38_0_m
 		L_0 = BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496(__this, NULL);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(1, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var, L_0);
 		BaseVerticalCollectionView_SetSelection_mF970F0DAF12C51E9C6B1AC4FD64DB035B3DCA482(__this, ((int32_t)il2cpp_codegen_subtract(L_1, 1)), NULL);
 		BaseVerticalCollectionView_ScrollToItem_mA201CA77442DB59FDBAD1AEE7F61FFFA626A8716(__this, (-1), NULL);
 		return;
